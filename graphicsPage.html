@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jamie Nillas Graphic Design</title>
+
+        <!-- Bootstrap CSS File -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <script>
+            function showBrowserSize()
+            {
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                document.getElementById("sizeInfo").innerHTML = "Width: "+w+"<br>Height: "+h;
+            }
+        </script>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="finalProjectStyle.css">
+
+    </head>
+
+    <body onresize="showBrowserSize();" onload="showBrowserSize();" class="graphics">
+
+        <!-- SIZE BOX -->
+        <div id="sizeInfo"></div>
+
+        <!-- BLUR -->
+         <div id="blur"></div>
+
+    <!-- HEADER -->
+    <div id="header">
+        <h1 class="small"><a href="finalProject.html" target="_self">Jamie Nillas</a></h1>
+        <h1 class="medium"><a href="finalProject.html" target="_self">Jamie Nillas</a></h1>
+
+        <!-- NAVIGATION -->
+        <div id="nav">
+
+            <!-- small format -->
+            <div class="small row">
+                <a class="col-sm-6" href="photographyPage.html" target="_self">PHOTOGRAPHY |</a>
+                <a class="col-sm-6" href="videographyPage.html" target="_self"> VIDEOGRAPHY</a>
+            </div>
+            <div class="small row">
+                <a class="col-sm-6" href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                <a class="col-sm-6" href="webdesignPage.html" target="_self"> WEB DESIGN</a>
+            </div>
+
+            <!-- medium format -->
+            <div class="medium row">
+                <span>
+                    <a class="col-md-3" href="photographyPage.html" target="_self">PHOTOGRAPHY | </a>
+                    <a class="col-md-3" href="videographyPage.html" target="_self">VIDEOGRAPHY | </a>
+                    <a class="col-md-3" href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                    <a class="col-md-3" href="webdesignPage.html" target="_self">WEB DESIGN</a>
+                </span>
+            </div> 
+
+        </div>
+
+
+        <!-- large format -->
+        <div class="large">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1><a href="finalProject.html" target="_self">Jamie Nillas</a></h1>
+                </div>
+                <div id="nav" class="col-lg-7">
+                    <br><br>
+                    <span>
+                        <a href="photographyPage.html" target="_self">PHOTOGRAPHY | </a>
+                        <a href="videographyPage.html" target="_self">VIDEOGRAPHY | </a>
+                        <a href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                        <a href="webdesignPage.html" target="_self">WEB DESIGN</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+    </div> <!-- end of header -->
+
+        <!-- MAIN -->
+        <div id="mainPage">
+            
+            <!-- QUICK LINKS -->
+            <div id="quickLinks2">
+                Quick Links:
+                <span><a class="ql" href="#weAre">Internship Capstone</a></span>
+                <span><a class="ql" href="#titaLorlis">Tita Lorlis</a></span>
+            </div>
+
+            <div id="weAre">
+                <h2>Internship Capstone</h2>
+                <p>This zine represents the capstone project I accomplished for my photography internship with The TX Studio.
+                    It utilizes the skills I learned with photography, creative direction, and graphic design.
+                </p>
+                <br><br>
+
+                <span>
+                    <img class="graphicsphotos" src="weare1.jpg" alt="The front and back of a zine">
+                    <img class="graphicsphotos" src="weare2.jpg" alt="The first pages of a zine">
+                    <img class="graphicsphotos" src="weare3.jpg" alt="The second pages of a zine">
+                    <img class="graphicsphotos" src="weare4.jpg" alt="The third pages of a zine">
+                    <img class="graphicsphotos" src="weare5.jpg" alt="The fourth pages of a zine">
+                    <img class="graphicsphotos" src="weare6.jpg" alt="The fifth pages of a zine">
+                    <img class="graphicsphotos" src="weare7.jpg" alt="The sixth pages of a zine">
+                    <img class="graphicsphotos" src="weare8.jpg" alt="The seventh pages of a zine">
+                    <img class="graphicsphotos" src="weare9.jpg" alt="A zine in a field of flowers">
+                </span>
+            </div>
+
+            <div id="titaLorlis">
+                <h2>Tita Lorli's</h2>
+                <p>Tita Lorli's is the name of my mother's small baking business. I not only help her bake, but I 
+                    manage the social media and graphics as well. These are some of the sticker designs I have come up with.
+                </p>
+                <br><br>
+
+                <span>
+                    <img class="landscape" src="sticker1.jpg" alt="A Crinkle sticker">
+                    <img class="landscape" src="sticker2.jpg" alt="A purple sticker">
+                </span>
+                <span>
+                    <img class="landscape" src="sticker3.png" alt="A Crinkle sticker">
+                    <img class="landscape" src="sticker4.png" alt="A Crinkle sticker">
+                </span>
+            </div>
+
+        </div>
+
+        <!-- BACK TO TOP -->
+        <div id="backtotop">
+            <a href="#quickLinks2">Back To Top</a>
+        </div>
+
+    </body>
+</html>
