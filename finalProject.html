@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jamie Nillas Final Project</title>
+
+        <!-- Bootstrap CSS File -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <script>
+            function showBrowserSize()
+            {
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                document.getElementById("sizeInfo").innerHTML = "Width: "+w+"<br>Height: "+h;
+            }
+        </script>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="finalProjectStyle.css">
+
+    </head>
+
+    <body onresize="showBrowserSize();" onload="showBrowserSize();">
+
+        <!-- SIZE BOX -->
+        <div id="sizeInfo"></div>
+
+        <!-- BLUR -->
+         <div id="blur"></div>
+
+        <!-- HEADER -->
+        <div id="header">
+            <h1 class="small">Jamie Nillas</h1>
+            <h1 class="medium">Jamie Nillas</h1>
+
+            <!-- NAVIGATION -->
+            <div id="nav">
+
+                <!-- small format -->
+                <div class="small row">
+                    <a class="col-sm-6" href="photographyPage.html" target="_self">PHOTOGRAPHY |</a>
+                    <a class="col-sm-6" href="videographyPage.html" target="_self"> VIDEOGRAPHY</a>
+                </div>
+                <div class="small row">
+                    <a class="col-sm-6" href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                    <a class="col-sm-6" href="webdesignPage.html" target="_self"> WEB DESIGN</a>
+                </div>
+
+                <!-- medium format -->
+                <div class="medium row">
+                    <span>
+                        <a class="col-md-3" href="photographyPage.html" target="_self">PHOTOGRAPHY | </a>
+                        <a class="col-md-3" href="videographyPage.html" target="_self">VIDEOGRAPHY | </a>
+                        <a class="col-md-3" href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                        <a class="col-md-3" href="webdesignPage.html" target="_self">WEB DESIGN</a>
+                    </span>
+                </div> 
+
+            </div>
+
+
+            <!-- large format -->
+            <div class="large">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h1>Jamie Nillas</h1>
+                    </div>
+                    <div id="nav" class="col-lg-7">
+                        <br><br>
+                        <span>
+                            <a href="photographyPage.html" target="_self">PHOTOGRAPHY | </a>
+                            <a href="videographyPage.html" target="_self">VIDEOGRAPHY | </a>
+                            <a href="graphicsPage.html" target="_self">GRAPHIC DESIGN | </a>
+                            <a href="webdesignPage.html" target="_self">WEB DESIGN</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+        <!-- ABOUT ME -->
+        <div id="mainPage">
+
+            <!-- small format -->
+            <div class="small">
+                <img src="portrait.JPG" alt="A photo of Jamie Nillas" width="75%">
+                <br><br>
+                <h2>About Me</h2>
+                <p class="subtitles"><em>B.A. in Arts, Technology and Emerging Communication</em></p>
+                <p class="subtitles"><em>M.S. in Human Computer Interaction </em></p>
+                <br>
+                <p>Jamie Nillas is currently a graduate student at DePaul University taking the Masters Program in Human Computer Interaction. She obtained
+                    her Bachelor's at The University of Texas at Dallas in Arts, Technology, and Emerging Communication.
+                </p>
+                <p>She has a passion for anything creative! In Texas, Jamie focused on photography and creative direction with studio shoots and graduation 
+                    shoots. Now in Chicago, she focuses on studying user experience and web design in her classes.
+                </p>
+                <p>To get a full glimpse of Jamie's work, browse through the pages in the navigation bar!</p>
+            </div>
+
+            <!-- medium format -->
+            <div class="medium">
+                <div class="row" style="padding-top: 20px; padding-bottom: 20px">
+                    <div class="col-md-5 col-lg-5">
+                        <img src="portrait.JPG" alt="A photo of Jamie Nillas" width="90%">
+                    </div>
+                    <div id="aboutme" class="col-md-7 col-lg-7">
+                        <h2>About Me</h2>
+                        <p class="subtitles"><em>B.A. in Arts, Technology and Emerging Communication</em></p>
+                        <p class="subtitles"><em>M.S. in Human Computer Interaction </em></p>
+                        <br>
+                        <p>Jamie Nillas is currently a graduate student at DePaul University taking the Masters Program in Human Computer Interaction. She obtained
+                            her Bachelor's at The University of Texas at Dallas in Arts, Technology, and Emerging Communication.
+                        </p>
+                        <p>She has a passion for anything creative! In Texas, Jamie focused on photography and creative direction with studio shoots and graduation 
+                            shoots. Now in Chicago, she focuses on studying user experience and web design in her classes.
+                        </p>
+                        <p>To get a full glimpse of Jamie's work, browse through the pages in the navigation bar!</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <!-- large format -->
+        <div class="large">
+            <div id="mainPage">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="portrait.JPG" alt="A photo of Jamie Nillas" width="75%" style="margin-left: 15%; border: 10px ridge #eddbcd;">
+                    </div>
+                    <div id="aboutme" class="col-lg-7" style="padding: 20px">
+                        <h2>About Me</h2>
+                        <p class="subtitles"><em>B.A. in Arts, Technology and Emerging Communication, M.S. in Human Computer Interaction </em></p>
+                        <br><br>
+                        <p>Jamie Nillas is currently a graduate student at DePaul University taking the Masters Program in Human Computer Interaction. She obtained
+                            her Bachelor's at The University of Texas at Dallas in Arts, Technology, and Emerging Communication.
+                        </p>
+                        <p>She has a passion for anything creative! In Texas, Jamie focused on photography and creative direction with studio shoots and graduation 
+                            shoots. Now in Chicago, she focuses on studying user experience and web design in her classes.
+                        </p>
+                        <p>To get a full glimpse of Jamie's work, browse through the pages in the navigation bar!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESUME -->
+        <div id="resume">
+            <h2 class="small">Jamie Therese M. Nillas</h2>
+            <h2 class="medium">Jamie Therese M. Nillas</h2>
+            <h2 class="large">Jamie Therese M. Nillas</h2>
+            <p class="subtitles">Chicago, IL | (832) 680 - 9254 | j.n.creatives12@gmail.com</p>
+            <hr width="100%">
+
+            <!-- WORK EXPERIENCE -->
+            <h2 class="small">Work Experience</h2>
+            <h2 class="medium">Work Experience</h2>
+            <h2 class="large">Work Experience</h2>
+
+            <h4 class="small">Quartino Ristorante</h4>
+            <h4 class="medium">Quartino Ristorante</h4>
+            <h4 class="large">Quartino Ristorante</h4>
+            <p class="subtitles">July 2024 - Present</p>
+            <p class="subtitles">Chicago, IL -- <em>Server, Trainer</em></p>
+            
+            <h4 class="small">Tita Lorli's</h3>
+            <h4 class="medium">Tita Lorli's</h3>
+            <h4 class="large">Tita Lorli's</h3>
+            <p class="subtitles">July 2020 - Present</p>
+            <p class="subtitles">Spring, TX & Remote -- <em>Co-Founder, Graphic Designer & Content Creator</em></p>
+            
+            <h4 class="small">Freelance Photographer</h4>
+            <h4 class="medium">Freelance Photographer</h4>
+            <h4 class="large">Freelance Photographer</h4>
+            <p class="subtitles">March 2020 - Present</p>
+            <p class="subtitles">Texas & Illinois -- <em>Graduations, Portraits, Events, Marketing</em></p>
+            
+            <h4 class="small">Dutch Bros Coffee</h4>
+            <h4 class="medium">Dutch Bros Coffee</h4>
+            <h4 class="large">Dutch Bros Coffee</h4>
+            <p class="subtitles">January 2022 - March 2023</p>
+            <p class="subtitles">Richardson & Houston, TX -- <em>Shift Lead, Barista</em></p>
+
+            <h4 class="small">The TX Studio</h4>
+            <h4 class="medium">The TX Studio</h4>
+            <h4 class="large">The TX Studio</h4>
+            <p class="subtitles">February 2022 - May 2022</p>
+            <p class="subtitles">Dallas, TX -- <em>Intern</em></p>
+        
+            <h4 class="small">Legacy Studios</h4>
+            <h4 class="medium">Legacy Studios</h4>
+            <h4 class="large">Legacy Studios</h4>
+            <p class="subtitles">June 2021 - August 2021</p>
+            <p class="subtitles">Dallas, TX -- <em>Photographer</em></p>
+        
+            <br><hr>
+
+            <!-- EDUCATION -->
+            <h2 class="small">Education</h2>
+            <h2 class="medium">Education</h2>
+            <h2 class="large">Education</h2>
+
+            <h4 class="small">DePaul University</h4>
+            <h4 class="medium">DePaul University</h4>
+            <h4 class="large">DePaul University</h4>
+            <p class="subtitles">September 2024 - May 2027</p>
+            <p class="subtitles">Chicago, IL -- <em>Master of Science in Human Computer Interaction</em></p>
+        
+            <h4 class="small">The University of Texas at Dallas</h4>
+            <h4 class="medium">The University of Texas at Dallas</h4>
+            <h4 class="large">The University of Texas at Dallas</h4>
+            <p class="subtitles">August 2019 - December 2022</p>
+            <p class="subtitles">Richardson, TX -- <em>Bachelor of Arts in Art, Technology, and Emerging Communication</em></p>
+        
+            <br><hr>
+
+            <!-- LEADERSHIP EXPERIENCE -->
+            <h2 class="small">Leadership Experience</h2>
+            <h2 class="medium">Leadership Experience</h2>
+            <h2 class="large">Leadership Experience</h2>
+
+            <h4 class="small">President</h4>
+            <h4 class="medium">President</h4>
+            <h4 class="large">President</h4>
+            <p class="subtitles">2021 - 2022</p>
+            <p class="subtitles">Richardson, TX -- <em>The Filipino Student Association</em></p>
+        
+            <h4 class="small">Cultural Director</h4>
+            <h4 class="medium">Cultural Director</h4>
+            <h4 class="large">Cultural Director</h4>
+            <p class="subtitles">2020 - 2021</p>
+            <p class="subtitles">Richardson, TX -- <em>The Filipino Student Association</em></p>
+        
+            <br><hr>
+
+            <!-- SKILLS -->
+            <p class="subtitles">HTML, CSS, JavaScript, Figma</p>
+            <p class="subtitles">Adobe Creative Suite (Illustrator, InDesign, Lightroom, Photoshop, Premiere Pro)</p>
+        
+        </div>
+
+    </body>
+</html>
